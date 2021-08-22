@@ -1,15 +1,10 @@
 # LEGO type:advanced slot:2 autostart
 from util.rotation import rotate_hub_display_to_value
-from util.scratch import pitch_to_freq, convert_animation_frame
 from runtime import VirtualMachine
 from mindstorms import Motor, MotorPair, MSHub
 from mindstorms.control import wait_for_seconds
 import hub
 import math
-
-from util.print_override import spikeprint
-
-print = spikeprint
 
 blinking_animation = [
     "77077:00000:99099:99099:00000",

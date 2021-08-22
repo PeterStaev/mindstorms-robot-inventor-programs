@@ -1,12 +1,9 @@
 # LEGO type:advanced slot:4 autostart
 from util.rotation import rotate_hub_display_to_value
 from runtime import VirtualMachine
-from mindstorms import Motor, MotorPair, MSHub, ColorSensor
+from mindstorms import Motor, MotorPair, MSHub
 from mindstorms.control import wait_for_seconds
-from util.print_override import spikeprint
 import hub
-
-print = spikeprint
 
 cool_animation = [
     "00000:77077:99999:99099:00000",

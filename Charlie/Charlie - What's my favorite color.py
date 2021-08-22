@@ -3,11 +3,8 @@ from util.rotation import rotate_hub_display_to_value
 from runtime import VirtualMachine
 from mindstorms import Motor, MotorPair, MSHub, ColorSensor
 from mindstorms.control import wait_for_seconds
-from util.print_override import spikeprint
 import hub
 import math
-
-print = spikeprint
 
 looking_animation = [
     "77077:00000:77077:97097:00000",
